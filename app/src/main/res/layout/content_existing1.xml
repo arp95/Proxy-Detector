@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.android.example.employeetracker.neww"
+    tools:showIn="@layout/activity_existing1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:elevation="6dp"
+            android:background="#607D8B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ENTER DETAILS :"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:layout_marginBottom="50dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Branch :"
+                android:textColor="@android:color/black"
+                android:textSize="25sp"/>
+
+            <EditText
+                android:id="@+id/v1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="eg. EE"
+                android:textColor="@android:color/black"
+                android:textSize="25sp"
+                android:layout_marginBottom="25dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Year :"
+                android:textColor="@android:color/black"
+                android:textSize="25sp"/>
+
+            <EditText
+                android:id="@+id/v2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="eg. 3"
+                android:textColor="@android:color/black"
+                android:textSize="25sp"
+                android:layout_marginBottom="25dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Roll No. :"
+                android:textColor="@android:color/black"
+                android:textSize="25sp"/>
+
+            <EditText
+                android:id="@+id/v3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="eg. 29"
+                android:textColor="@android:color/black"
+                android:textSize="25sp"
+                android:layout_marginBottom="25dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password :"
+                android:textColor="@android:color/black"
+                android:textSize="25sp"/>
+
+            <EditText
+                android:layout_marginBottom="50dp"
+                android:id="@+id/v4"
+                android:inputType="textPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="eg. yolo"
+                android:textColor="@android:color/black"
+                android:textSize="25sp"/>
+
+        </LinearLayout>
+
+        <Button
+            android:onClick="login1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"/>
+
+        <Button
+            android:onClick="login2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+
+</ScrollView>

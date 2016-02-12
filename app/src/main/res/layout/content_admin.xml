@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:text="sdsds"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.android.example.employeetracker.admin"
+    tools:showIn="@layout/activity_admin">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text="DETAILS :"
+            android:elevation="6dp"
+            android:background="#607D8B"
+            android:layout_marginBottom="50dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UserName :"
+                android:textColor="@android:color/black"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/te1"
+                android:layout_marginBottom="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="arp95"
+                android:textColor="@android:color/black"
+                android:textSize="25sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name :"
+                android:textColor="@android:color/black"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/te2"
+                android:layout_marginBottom="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Arpit"
+                android:textColor="@android:color/black"
+                android:textSize="25sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Location :"
+                android:textColor="@android:color/black"
+                android:textSize="25sp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Latitude :"
+                    android:textColor="@android:color/black"
+                    android:textSize="25sp"/>
+
+                <TextView
+                    android:id="@+id/te3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="27.6"
+                    android:textColor="@android:color/black"
+                    android:textSize="25sp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Longitude :"
+                    android:textColor="@android:color/black"
+                    android:textSize="25sp"/>
+
+                <TextView
+                    android:id="@+id/te4"
+                    android:layout_marginBottom="25dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="45.5"
+                    android:textColor="@android:color/black"
+                    android:textSize="25sp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Branch :"
+                android:textColor="@android:color/black"
+                android:textSize="25sp"/>
+
+            <EditText
+                android:id="@+id/pp1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="eg. EE"
+                android:textSize="25sp"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="25dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Year :"
+                android:textColor="@android:color/black"
+                android:textSize="25sp"/>
+
+            <EditText
+                android:id="@+id/pp2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="eg. 3"
+                android:textSize="25sp"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="25dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lower Roll No. :"
+                android:textColor="@android:color/black"
+                android:textSize="25sp"/>
+
+            <EditText
+                android:id="@+id/pp3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="eg. 1"
+                android:textSize="25sp"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="25dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Higher Roll No. :"
+                android:textColor="@android:color/black"
+                android:textSize="25sp"/>
+
+            <EditText
+                android:id="@+id/pp4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="eg. 73"
+                android:textSize="25sp"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="50dp"/>
+
+        </LinearLayout>
+
+        <Button
+            android:onClick="apply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apply"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"/>
+
+
+        <Button
+            android:onClick="update1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update info"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"/>
+
+        <Button
+            android:onClick="cleara"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="clear all"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"/>
+
+
+        <Button
+            android:onClick="logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="logout"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+
+</ScrollView>
