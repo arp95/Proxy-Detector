@@ -24,7 +24,7 @@ public class existing extends AppCompatActivity {
         setContentView(R.layout.activity_existing);
 
         db = openOrCreateDatabase("USERDB1" , Context.MODE_PRIVATE , null);
-
+        db.execSQL("CREATE TABLE IF NOT EXISTS admin( user_id VARCHAR PRIMARY KEY, name VARCHAR , password VARCHAR );");
     }
 
     public void login(View view)
