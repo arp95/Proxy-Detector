@@ -1,5 +1,5 @@
 # Proxy-Detector Android App
-Proxy Detector is an Attendence Management System Android App aimes to detect the number of students identified by their branch , roll number , year in a classroom .
+Proxy Detector is an Attendence Management System Android App aims to detect the number of students identified by their branch , roll number , year in a classroom .
 
 Each user/student has to register themselves as student providing their details like Name , Roll_No , Branch , Year etc .
 Each professor registers themselves as teachers which give them the authority to check the number of students in a particular block of area.
